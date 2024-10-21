@@ -127,7 +127,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #ff004f;
     font-size: 14px;   
 }
 .tab-contents{
@@ -144,7 +144,7 @@ nav ul li a:hover::after{
     display: flex;
     margin-top: 50px;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: space-between;
 }
 .work{
@@ -327,9 +327,10 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
-}
 #msg{
     color: #61b752;
     margin-top: -40px;
     display: block;
+    }
+
 }
