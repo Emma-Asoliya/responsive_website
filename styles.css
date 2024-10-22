@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #040116;
+    background: #000;
     color: #fff;
 }
 #header{
@@ -181,8 +181,15 @@ nav ul li a:hover::after{
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
+    max-height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: none;
 
 }
+.layer::-webkit-scrollbar{
+    display: none;
+}
+
 .hidden-images{
     display: none;
     justify-content: space-evenly;
