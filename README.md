@@ -1,0 +1,1 @@
+This resume website  uses html, css and javascript. The site showcases my skills, experience and education.
