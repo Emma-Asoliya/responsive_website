@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuella Briggs Portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Entry Level Front-End Developer</p>
+        <h1>Hi, I'm <span>Emmanuella</span><br>Briggs From Nigeria</h1>
+    </div>
+</div>
+    </div>
+<!----------About---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/About Me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Nigerian currently studying Software Engineering at the African Leadership University Rwandan Campus. I plan to specialise in Machine Learning where i aim to make a mark by using technology(A.I.) to solve the problem of Mental Health.</p> <br>
+                </br><p>I am a student, project manager, and virtual assistant skilled at balancing multiple responsibilities with efficiency and focus. My experience in project management ensures timely and targeted project delivery, while my virtual assistant work provides seamless support in various business areas.</p>
+                    <p>My ultimate goal is to create a space where people can feel comfortable sharing their challenges, knowing they will find solutions and relief.</p>
+                       
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><br>Python, HTML, CSS, JavaScript.</li>
+                            <li><span>Soft Skills</span><br>Management, Photography, Critical Thinking, Fine Arts</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept 2024- Current</span><br><b>Virtual Assistant/ Project manager:</b><li>As a virtual assistant and project manager, I coordinate tasks, manage schedules, and provide administrative support to ensure efficient workflow. I collaborate with teams, track project progress, and facilitate communication to meet deadlines and deliver successful outcomes.</li>
+                            <li><span>June 2024</span><br><b>Graduation Coordinator(Volunteer):</b><li>Assisted in organizing and coordinating a graduation ceremony by managing guest seating, providing directions, distributing refreshments, and collaborating with faculty and staff to ensure a smooth event flow.</li></li>
+                            <li><span>April 2024</span><br><b>Stakeholder Operations Management(Volunteer):</b><li>Provided information and support to new parents, conducted orientation meetings for various stakeholders, and helped manage orientation events to ensure smooth operations, while collaborating with school staff to create a welcoming environment for new families.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>January 2024</span><br><b>African Leadership University:<li></b> I am a first-year Software Engineering student at ALU, specializing in Machine Learning. Since starting in January 2024, I have discovered new skills in leadership and teamwork. By 2027, I aim to be one of the changemakers and young leaders Africa needs.</li>
+                            <li><span>July 2023</span><br><b>Fortuneland Academy:</b><li>Graduated from Secondary School in July 2023, I completed the Western African Secondary School Certificate Examination(WASSCE).A demanding international exam that has improved my ability to comprehend information quickly and sharpened my critical thinking skills for tackling complex problems. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- -----------Portfolio------------ -->
+   <div id="portfolio"> 
+    <div class="container">
+        <h1 class="sub-title">Interests</h1>
+        <div class="work-list">
+            
+            <div class="work">
+                <img src="Images/work.jpeg">  
+                <div class="layer">
+                    <h3><b>Performing and Creative Arts</b></h3>
+                    <p>Performing and creative arts captivate me because they offer a unique way to express emotions, tell stories, and connect with others, allowing creativity to flow and inspire both the artist and the audience.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/work 2.jpeg">
+                <div class="layer">
+                    <h3><b>Mental Health</b></h3>
+                    <p>Mental health matters to me because it deeply impacts well-being and how we navigate life.</p>   
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/work 3.jpeg">
+                <div class="layer">
+                    <h3><b>Watching Movies</b></h3>
+                    <p>I enjoy watching movies because they offer a great escape and a way to experience different stories and perspectives.</p>  
+                </div>
+            </div>
+
+
+    
+    <!--------------contact--------------> 
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> emmaasoliya@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +250 794 103 563</p>
+                <div class="social-icons">
+                   <a href="https://github.com/Emma-Asoliya" target="_blank"><i class="fa-brands fa-github"></i></a>
+                   <a href="https://www.linkedin.com/in/emmanuella-briggs-22b3572b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                   <a href="https://www.instagram.com/emmanuella_briggs/profilecard/?igsh=MTBrb2g0M3JveGd3eg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                   <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="Images/EMMANUELLA BRIGGS_Resume .pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </div>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+      <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents"); 
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx_FwYuKNoGYr66i_hUauIXlFapCZUau1EaEGLmAte_uKZO-uQ_srJ7Av5sMxkwCfG-/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML= "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+    },5000)
+    form.reset()
+})    
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
